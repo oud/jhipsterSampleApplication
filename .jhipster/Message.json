@@ -1,0 +1,31 @@
+{
+  "annotations": {
+    "changelogDate": "20250328155720"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "priority",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "topic",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "data",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Status",
+      "fieldValues": "RECEIVED,WAITING,COMPLETED,ERROR"
+    },
+    {
+      "fieldName": "receivedAt",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "Message",
+  "relationships": []
+}
